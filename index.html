@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang=da>
+    <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="The portfolio of Emil From. Aspiring Cinematographer, Editor, and Photographed. Based in Denmark.">
+        <title>The Portfolio of Emil From</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="Header">
+                <div id="EmilFromHeader">
+                    <a href="index">
+                        <h1>Emil From</h1>
+                    </a>
+                </div>
+                <div id="EditorHeader">
+                    <h2>Aspiring Filmmaker</h2>
+                </div>
+            </div>
+            <div id="content">
+                <div id="banners">
+                    <div id="IndexAboutBanner">
+                        <a href="about">
+                            <img alt="About Emil From" title="About Emil From" src="images/index/AboutBanner.jpg"/>
+                        </a>
+                    </div>
+                    <div id="IndexPhotographyBanner">
+                        <a href="photography">
+                            <img alt="Film by Emil From" title="Film by Emil From" src="images/index/PhotographyBanner.jpg"/>
+                        </a>
+                    </div>
+                    <div id="IndexFilmBanner">
+                        <a href="film">
+                            <img id="FilmBannerImage" alt="Film by Emil From" title="Film by Emil From" src="images/index/FilmBannerFrame.jpg"/>
+                            <video autoplay="autoplay" loop="loop" preload="auto" poster="/images/index/FilmBannerPoster.jpg" style="display: none;" id="FilmBannerVideo">
+                                <source src="video/index/FilmBanner.mp4" type="video/mp4" />
+                                <source src="video/index/FilmBanner.webm" type="video/webm"/>
+                                <source src="video/index/FilmBanner.ogv" type="video/ogg"/> 
+                                    Your browser doesn't support HTML5 video
+                            </video>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                var v = document.getElementById("FilmBannerVideo");
+                v.addEventListener("playing", function() {
+                    v.style.display = "block";
+                    document.getElementById("FilmBannerImage").style.display = "none";
+                }, true);
+            });
+        </script>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-30407673-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

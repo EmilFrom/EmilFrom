@@ -1,0 +1,298 @@
+/*Fonts*/
+
+@font-face {
+    font-family: Montreal;
+    src: url('fonts/Montreal.ttf'); 
+}
+
+@font-face {
+    font-family: Edmondsans-Regular;
+    src: url('fonts/Edmondsans-Regular.otf'); 
+}
+
+@font-face {
+    font-family: Didot;
+    src: url('fonts/Didot.otf'); 
+}
+
+
+/*Header*/
+
+
+#EmilFromHeader h1 {
+    font-family: Montreal;
+    font-size: 15vmin;
+    font-weight: normal;
+    text-align: center;
+    line-height: 14.5vmin;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#EmilFromHeader a {
+    text-decoration: none;
+    color: black;
+}
+
+#EditorHeader h2 {
+    font-family: Edmondsans-Regular;
+    font-weight: normal;
+    font-size: 3vmin;
+    text-align: center;
+    margin-top: 0.5vh;
+    margin-bottom: 0;
+}
+
+/*Index*/
+
+#IndexAboutBanner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vmin;
+    width: 90vmin;
+    max-width: 800px;
+    height: auto;
+}
+
+#IndexPhotographyBanner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vmin;
+    width: 90vmin;
+    max-width: 800px;
+    height: auto;
+}
+
+#IndexFilmBanner video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vmin;
+    margin-bottom: 2vmin;
+    width: 90vmin;
+    max-width: 800px;
+    height: auto;
+}
+
+#IndexFilmBanner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vmin;
+    margin-bottom: 2vmin;
+    width: 90vmin;
+    max-width: 800px;
+    height: auto;
+}
+
+#IndexAboutBanner :hover {
+    cursor: pointer;
+}
+
+#IndexPhotographyBanner :hover {
+    cursor: pointer;
+}
+
+#IndexFilmBanner :hover {
+    cursor: pointer;
+}
+
+/*About*/
+    
+
+#AboutBannerAbout img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vmin;
+    width: 90vmin
+    height: auto;
+}
+
+.AboutTextBanner {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5vmin;
+    width: 89.3vmin;
+    height: 15.8vmin;
+    max-width: 800px;
+    border-style: solid;
+    border-width: 0.12em;
+}
+
+.AboutTextBannerText1 h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 1vmin;
+    text-align: center;
+    font-size: 2.7vmin;
+
+}
+
+.AboutTextBannerText2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1vmin;
+    width: 80vmin;
+    max-width: 800px;
+    font-size: 2.4vmin;
+}
+
+.AboutTextBannerText2 a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5vmin;
+    width: 80vmin;
+    max-width: 800px;
+    font-size: 2.4vmin;
+}
+
+#AboutPDFLink {
+    display: inline;
+
+}
+
+
+/*Photography*/
+
+#PhotographySlider {
+    margin: 1.3vmin auto;
+    width: 100vmin;
+    display: block;
+}
+
+.Arrow {
+    width: 10vmin;
+    justify-content: center;
+}
+
+
+.PhotographySliderImages {
+    display: none;
+
+}
+
+.PhotographyList {
+}
+
+#Arrows {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#photography {
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+    
+
+
+@media (max-width: 850px) {
+    #PhotographySlider {
+    margin: 1.3vmin auto;
+    width: 90vw;
+    display: inline-block;
+    }
+    
+}
+
+
+@media (max-width: 700px) {
+    .Arrow {
+    width: 20vmin;
+    justify-content: center;
+    }
+    
+}
+
+
+    
+/*Film*/
+
+.FilmBannerFilm img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vmin;
+    width: 90vmin;
+    max-width: 800px;
+    height: auto;
+}
+
+/*Photography2*/
+
+#Photography2GalleryContainer {
+}
+
+#Photography2Gallery {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Photography2Gallery img {
+    max-width: 80vw;
+    max-height: 90vh;
+    display: block;
+    
+}
+
+
+#Photography2Buttons img {
+    width: 5vmin;
+    height: auto;
+    float: right;
+}
+
+/*Digte*/
+#Header h1 {
+    text-align: center;
+}
+
+#digte {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#digte p {
+    font-family: Courier;
+}
+
+#digte h2 {
+    font-family: Futura;
+}
+
+#klaver {
+    padding-left: 260px;
+}
+
+#skavanker {
+    padding-left: 100px;
+}
+
+#emdrup {
+}
+
+#residentieltortur {
+    padding-left: 150px;
+}
+
+#x {
+    padding-left: 280px;
+}
+
